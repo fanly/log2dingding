@@ -1,0 +1,24 @@
+{
+    "name": "fanly/log2dingding",
+    "description": "Laravel Log to DingDing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fanly",
+            "email": "yemeishu@126.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fanly\\Log2dingding\\FanlyLog2dingdingServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Fanly\\Log2dingding\\": "src/"
+        }
+    }
+}
